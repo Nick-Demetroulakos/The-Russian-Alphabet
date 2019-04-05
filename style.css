@@ -1,0 +1,121 @@
+td a {
+  font-size: 19.25px;
+}
+
+td:hover {
+  background-color: grey;
+}
+
+footer {
+  font-size: 11px;
+}
+
+a {
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+body {
+  font-family: Georgia, serif;
+  color: #555;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+header {
+  border: 1px solid black;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Russia7.png/240px-Flag_of_Russia7.png);
+  width: 99vmax;
+  background-repeat: repeat-x;
+}
+
+header li a {
+  color: white;
+}
+
+main, footer {
+  width: 80%;
+  margin:0 auto;
+}
+
+h3 {
+  text-align: center;
+  color: #555;
+}
+
+nav li {
+  border-style: groove;
+  padding: 5px;
+  display: inline-block;
+  margin: 1px 30px 47px;
+}
+
+nav {
+  width: 60%;
+  margin-left: 245px;
+  overflow: auto;
+}
+
+nav li:hover {
+  box-shadow: 3px 3px 5px;
+  color: black;
+}
+
+nav li:active {
+  /*Not sure if I need to cite this, but i learned how to do it on W3schools*/
+  background-color: rgb(24, 5, 168);
+  transform: translateY(2px);
+}
+
+header ul li a {
+  font-variant: small-caps;
+}
+
+#Alphabet {
+  box-shadow: 3px 3px 5px;
+}
+
+figcaption {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.friend {
+  color: red;
+}
+
+.fakefriend {
+  color: #a959cc;
+}
+/*code below was found on http://jsfiddle.net/B6Jsy/ */
+#centerimages {
+  text-align: center;
+}
+
+.centerimg {
+  display: inline-block;
+  margin: 5px 5px;
+}
+
+#putin {
+  margin-top: 1000px;
+  transition: transform 5s;
+}
+/*below learned on W3schools*/
+#putin:hover {
+  transform: scale(1.15);
+}
+
+/* Just made this a comment becuase it messed everything up.
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+*/
