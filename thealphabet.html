@@ -3,18 +3,7 @@
     <head>
       <title>The Alphabet</title>
       <meta charset="utf-8">
-      <style>
-      
-        main {
-          background-color: rgba(0, 0, 255, .25);
-          padding: 20px;
-          border-style: groove;
-          border-width: 8px;
-          border-radius: 5px;
-          border-color: rgba(0, 0, 255, 0.25);
-        }
-        </style>
-        <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css">
     </head>
     <body>
       <header>
@@ -29,45 +18,47 @@
         </nav>
       </header>
       <h3>Алфавит! Alphabet!</h3>
-      <main>
+      <main id=alphabet>
         <p>There are 33 characters (10 vowels, 21 consonants, and 2 'signs'). Here is what they look like! Click on one to hear it's pronunciation.</p>
-        <table border=1px; black>
-          <tr>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=1" class="friend">Аа</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=9">Бб</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=15" class="fakefriend">Вв</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=24">Гг</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=31">Дд</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=39" class="friend">Ее</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=47">Ёё</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=54">Жж</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=62">Зз</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=69">Ии</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=77">Йй</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=84" class="friend">Кк</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=92">Лл</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=100" class="friend">Мм</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=108" class="fakefriend">Нн</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=115" class="friend">Оо</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=123">Пп</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=130" class="fakefriend">Рр</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=138" class="fakefriend">Сс</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=146" class="friend">Тт</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=153" class="fakefriend">Уу</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=160">Фф</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=168" class="fakefriend">Хх</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=176">Цц</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=184">Чч</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=190">Шш</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=199">Щщ</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=206">Ъъ</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=212">Ыы</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=220">Ьь</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=225">Ээ</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=234">Юю</a></td>
-            <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=240">Яя</a></td>
-          </tr>
-        </table>
+        <div id=alphabet-table>
+          <table>
+            <tr>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=1" class="friend">Аа</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=9">Бб</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=15" class="fakefriend">Вв</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=24">Гг</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=31">Дд</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=39" class="friend">Ее</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=47">Ёё</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=54">Жж</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=62">Зз</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=69">Ии</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=77">Йй</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=84" class="friend">Кк</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=92">Лл</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=100" class="friend">Мм</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=108" class="fakefriend">Нн</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=115" class="friend">Оо</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=123">Пп</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=130" class="fakefriend">Рр</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=138" class="fakefriend">Сс</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=146" class="friend">Тт</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=153" class="fakefriend">Уу</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=160">Фф</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=168" class="fakefriend">Хх</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=176">Цц</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=184">Чч</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=190">Шш</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=199">Щщ</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=206">Ъъ</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=212">Ыы</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=220">Ьь</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=225">Ээ</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=234">Юю</a></td>
+              <td><a target="_blank" href="https://youtu.be/FcmsH_qdmO0?t=240">Яя</a></td>
+            </tr>
+          </table>
+        </div>
         <p>Here is <a target="_blank" href="https://www.youtube.com/watch?v=GAvFP19Lcz4"> another link</a> with pronunciations and example words.</p>
         <p>And an image of the alphabet:</p>
         <figure>
@@ -76,7 +67,7 @@
         </figure>
         <p class="friend">There are some letters that look the same as English and generally sound the same: A – E – K – M – O – T. </p>
         <p class="fakefriend">There are other letters that look the same as English but sound very different: В – Н – Р – С – У – Х. </p>
-        <p style="color: blue">Finally, there are letters that look pretty different from English: Б – Г – Д – И – Й – Л – П – Ф – Ц - Ж – З – Ч – Ш – Щ – Ё – Ы – Э – Ю – Я - ъ – ь</p>
+        <p id=stranger>Finally, there are letters that look pretty different from English: Б – Г – Д – И – Й – Л – П – Ф – Ц - Ж – З – Ч – Ш – Щ – Ё – Ы – Э – Ю – Я - ъ – ь</p>
       </main>
       <footer>
         <p>&copy; Nicholas Demetroulakos 2019 </p>

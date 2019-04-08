@@ -1,29 +1,15 @@
-td a {
-  font-size: 19.25px;
-}
-
-td:hover {
-  background-color: grey;
-}
-
-footer {
-  font-size: 11px;
-}
-
-a {
-  text-decoration: none;
-  font-variant: small-caps;
-}
-
 body {
   font-family: Georgia, serif;
   color: #555;
 }
 
-header h1 {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 1px;
+main, footer {
+  width: 80%;
+  margin:0 auto;
+}
+
+footer {
+  font-size: 11px;
 }
 
 header {
@@ -33,13 +19,18 @@ header {
   background-repeat: repeat-x;
 }
 
+header h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
 header li a {
   color: white;
 }
 
-main, footer {
-  width: 80%;
-  margin:0 auto;
+header ul li a {
+  font-variant: small-caps;
 }
 
 h3 {
@@ -47,17 +38,32 @@ h3 {
   color: #555;
 }
 
-nav li {
-  border-style: groove;
-  padding: 5px;
-  display: inline-block;
-  margin: 1px 30px 47px;
+a {
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+table, td {
+border: 1px solid black;
+}
+
+td a {
+  font-size: 19.25px;
+}
+
+td:hover {
+  background-color: grey;
 }
 
 nav {
-  width: 60%;
+  width: 75%;
   margin-left: 245px;
   overflow: auto;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1px 40px 47px;
 }
 
 nav li:hover {
@@ -71,17 +77,24 @@ nav li:active {
   transform: translateY(2px);
 }
 
-header ul li a {
-  font-variant: small-caps;
-}
-
-#Alphabet {
-  box-shadow: 3px 3px 5px;
+nav li a:link{
+  border-style: groove;
+  padding: 5px;
+  display: inline-block;
 }
 
 figcaption {
   font-size: 10px;
   padding-top: 5px;
+}
+
+main ul, ol, #indexp p, #alphabet {
+  background-color: rgba(0, 0, 255, .25);
+  padding: 20px 30px;
+  border-style: groove;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 255, 0.25);
 }
 
 .friend {
@@ -92,30 +105,45 @@ figcaption {
   color: #a959cc;
 }
 /*code below was found on http://jsfiddle.net/B6Jsy/ */
-#centerimages {
-  text-align: center;
-}
-
 .centerimg {
   display: inline-block;
   margin: 5px 5px;
+}
+
+#centerimages {
+  text-align: center;
 }
 
 #putin {
   margin-top: 1000px;
   transition: transform 5s;
 }
+
 /*below learned on W3schools*/
 #putin:hover {
   transform: scale(1.15);
 }
 
-/* Just made this a comment becuase it messed everything up.
-
-button {
-  background-color: blue;
-  color: white;
-  padding: 5px;
+#alphabet-table {
+  overflow-x: auto;
 }
 
-*/
+#stranger {
+  color: blue;
+}
+
+#Alphabet {
+  box-shadow: 3px 3px 5px;
+}
+
+@media only screen and (max-width: 1005px) {
+  nav li{
+    background-color: blue;
+    display: block;
+    width: 6rem;
+  }
+  /* tried for the dropdown menu idea but just couldn't get it to work. This is much less elegant but still gets the job done */
+  header h1 {
+    font-size: 3.9vw;
+  }
+}
