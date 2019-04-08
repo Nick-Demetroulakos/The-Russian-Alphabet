@@ -110,6 +110,10 @@ main ul, ol, #indexp p, #alphabet {
   margin: 5px 5px;
 }
 
+.quicklist {
+  margin: 0px 0px 7px 0px;
+}
+
 #centerimages {
   text-align: center;
 }
